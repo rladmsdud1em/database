@@ -1,7 +1,7 @@
 <?php
   $link = mysqli_connect("localhost", "root", "k5669203","tra");
   $query = "
-    INSERT INTO film (
+    INSERT INTO topic (
       title, description
       ) VALUES (
         '{$_POST['title']}',
