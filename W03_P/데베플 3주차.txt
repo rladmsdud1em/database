@@ -1,0 +1,40 @@
+데이터베이스 프로그래밍 3주차 20172029 김은영
+
+#새로 배운 내용
+
+$filtered=array(
+    'title'=>mysqli_real_escape_string($link,$_POST['title']),
+    'description'=>mysqli_real_escape_string($link,$_POST['description'])
+);
+  $query = "
+    INSERT INTO topic (
+      title, description, created
+      ) VALUE (
+        '{$filtered['title']}',
+        '{$filtered['description']}',
+        now()
+        )
+   );
+
+ //mysqli_real_escape_string 인자로 들어온 데이터 중 주석과 같은 기호를 문자로 변경함
+
+ //보안상의 문제로 $query에 직접 넣는 것이 아닌 $filtered라는 배열을 거쳐 인덱스로 저장됨
+
+
+#문제가 발생한 부분이나 고민한 내용 + 해결 과정
+
+$update_link='<a href="update.php?id='.$_GET['id'].'">update</a>';
+다음과 같은 구문에서 특수문자를 사용하는 기초적인 부분이 많이 헷갈린다.
+후에 혼자 코드를 작성하려고 하면 분명 엉터리로 작성할 것 같아
+문장을 통으로 외워 써보기도 하고 비슷한 구문을 찾아 정리했다. 
+
+
+#회고
+
+처음으로 보안과 관련된 수업을 듣게 되어 뜻깊었다. 평소 보안에 관련해 다소 무지했는데
+프로그래밍적으로 접근하니 이해가 더 잘되었다. 
+
+글을 가운데로 정렬하고 글자에 색을 넣어보는 등 웹페이지 디자인에 살짝 변화를 주었다. 
+
+
+#영상 링크
