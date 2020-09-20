@@ -13,7 +13,7 @@
   );
 
   if(isset($_GET['id']) ) {
-    $query = "SELECT * FROM film WHERE id={$_GET['id']}";
+    $query = "SELECT * FROM topic WHERE id={$_GET['id']}";
     $result = mysqli_query($link, $query);
     $row = mysqli_fetch_array($result);
     $article = array(
