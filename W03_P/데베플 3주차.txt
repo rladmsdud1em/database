@@ -39,3 +39,5 @@ $update_link='<a href="update.php?id='.$_GET['id'].'">update</a>';
 
 #영상 링크
 https://youtu.be/4Mnw6Zr6zKc
+
+
