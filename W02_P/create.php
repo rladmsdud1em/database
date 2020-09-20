@@ -1,6 +1,6 @@
 <?php
   $link = mysqli_connect('localhost','root','k5669203','tra');
-  $query = "SELECT * FROM film";
+  $query = "SELECT * FROM topic";
   $result = mysqli_query($link, $query);
   $list = '';
   while($row = mysqli_fetch_array($result)){
