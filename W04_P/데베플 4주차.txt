@@ -1,0 +1,43 @@
+데이터베이스 프로그래밍 4주차 20172029 김은영
+
+#새로 배운 내용
+
+
+
+
+#문제가 발생한 부분이나 고민한 내용 + 해결 과정
+
+ //author.php 파일에서 if(isset($_GET['id'])) 속 구문 약 43줄
+
+ $row = mysqli_fetch_array($result);
+ $escaped['name'] = htmlspecialchars($row['name']);
+ $escaped['profile'] = htmlspecialchars($row['profile']);
+
+ author 페이지에서 table 안의 업데이트를 누르면
+
+Warning: mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in 
+C:\Bitnami\wampstack-7.4.10-0\apache2\htdocs\w02\author.php on line 43
+
+Notice: Trying to access array offset on value of type null in 
+C:\Bitnami\wampstack-7.4.10-0\apache2\htdocs\w02\author.php on line 44
+
+Notice: Trying to access array offset on value of type null in 
+C:\Bitnami\wampstack-7.4.10-0\apache2\htdocs\w02\author.php on line 45
+
+위와 같은 오류가 생성되었다.
+하지만 아무리 코드를 봐도 어떤 문제인지 알수 없어 43줄부터 해당되는 3가지 코드를 삭제했더니
+정상적으로 코드가 실행되었다.
+그래도 뭔가 잘못한 부분이 있을 것 같아 재확인했더니 바로 앞줄에서 작은 오타가 있었다.
+하마터면 포기하고 잘못된 코드를 제출해 버릴 뻔 했다. ㅎㅎ
+
+ //메인페이지에 리스트 여행지 이름은 가운데 정렬이었지만 왼쪽 순서표시는 왼쪽 정렬이어서 
+미관상 보기 좋지 않았는데 아예 숫자표시를 ol에서 ul로 변경하고 스타일을 none으로 설정했다.
+처음에는 서로 붙여나오도록 시도하려했지만 현재의 실력으로는 변경할 수 없었다.
+
+
+#회고
+
+
+
+
+#영상 링크
