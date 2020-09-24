@@ -50,3 +50,5 @@ C:\Bitnami\wampstack-7.4.10-0\apache2\htdocs\w02\author.php on line 45
 
 
 #영상 링크
+
+https://youtu.be/uYFrR5azRLQ
