@@ -4,7 +4,8 @@
 ## 새로 배운 내용
 
 *try catch 구문으로 자바 접속
-try { 
+ ```
+ try { 
 			Class.forName(driver);	// jdbc 드라이버 로드	
 			conn = DriverManager.getConnection(url, user, password); // 오라클 접속
 			System.out.println("connection completed");
@@ -16,6 +17,7 @@ try {
 			System.out.println("connection failed");
 			e.printStackTrace(); // 에러 출력
 		} 
+```
  
 ## 회고
  ```
