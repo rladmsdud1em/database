@@ -140,15 +140,17 @@ All closed
 
 ## 문제가 발생한 부분이나 고민한 내용 + 해결 과정
 
-* java.sql.SQLSyntaxErrorException, invalid identifier, \n
-integrity constraint (HR.DEPT_LOC_FK) violated - child record found, \n
-unique constraint (HR.LOC_ID_PK) violated,SQL command not properly ended 등 \n
-갖가지 오류는 다 본것같다. 대부분이 sql문을 간단하게 수정하면 되는 문제였지만 \n
+* java.sql.SQLSyntaxErrorException, invalid identifier, 
+integrity constraint (HR.DEPT_LOC_FK) violated - child record found, 
+unique constraint (HR.LOC_ID_PK) violated,SQL command not properly ended 등 
+갖가지 오류는 다 본것같다. 대부분이 sql문을 간단하게 수정하면 되는 문제였지만 
 정말 많은 시간을 소요했다.
 
 ## 회고
  ```
-분명 간단한 과제였던 것 같은데 무엇때문에 시간이 많이 흐른건지 너무 아쉽다.
++ 자바로 sql문을 쓰니 새로웠다
+- 분명 간단한 과제였던 것 같은데 무엇때문에 시간이 많이 흐른건지 너무 아쉽다
+! 그래도 과제를 하고 난 후 뿌듯하고 재미있었다
 ```
 
 ## 영상 링크
