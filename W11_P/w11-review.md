@@ -154,4 +154,4 @@ unique constraint (HR.LOC_ID_PK) violated,SQL command not properly ended 등
 ```
 
 ## 영상 링크
-<a href = https://www.youtube.com/watch?v=GP1OT0IbGzg&feature=youtu.be> https://www.youtube.com/watch?v=GP1OT0IbGzg&feature=youtu.be </a>
+<a href = 'https://www.youtube.com/watch?v=GP1OT0IbGzg&feature=youtu.be'> https://www.youtube.com/watch?v=GP1OT0IbGzg&feature=youtu.be </a>
