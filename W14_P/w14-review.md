@@ -6,11 +6,13 @@
 *mongoDB
 <p>2009년 발표된, 크로스 플랫폼 도큐먼트 지향 데이터베이스 시스템으로 NoSQL, Document 기반, JavaScript 언어를 이용한다.
 <p>환경변수 설정
-<p>제어판 > 고급 시스템 설정 보기 > 환경변수 > 시스템 변수 Path 선택 > 편집 > 새로 만들기 
+	
+```
+제어판 > 고급 시스템 설정 보기 > 환경변수 > 시스템 변수 Path 선택 > 편집 > 새로 만들기 
 <p>C:\Program Files\MongoDB\Server\[버전명]\bin
-<p>
-<p>mongoDB 클라이언트 실행과 Document 생성메소드
-
+```
+mongoDB 클라이언트 실행과 Document 생성메소드
+	
 ```
 > mongo
 > use testDB
