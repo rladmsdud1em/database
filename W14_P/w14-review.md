@@ -10,6 +10,7 @@
 <p>C:\Program Files\MongoDB\Server\[버전명]\bin
 <p>
 <p>mongoDB 클라이언트 실행과 Document 생성메소드
+
 ```
 > mongo
 > use testDB
@@ -32,7 +33,8 @@
 
 ## 문제가 발생한 부분이나 고민한 내용 + 해결 과정
 
-* 없음
+* 녹화를 하기전까지는 문제가 없었는데 갑자기 오류가 생기거나 오타때문에 계속 영상을 새로 찍어야했다.
+ 열번을 넘게 반복하다가 복잡한 부분은 결국 소스를 메모장에 써두고 복사 붙여넣기하는 방법을 사용했다.
 
 ## 회고
  ```
@@ -42,4 +44,4 @@
 ```
 
 ## 영상 링크
-<a href = ''>  </a>
+<a href = 'https://youtu.be/qmfeaJkH6XE'>https://youtu.be/qmfeaJkH6XE</a>
