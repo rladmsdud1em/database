@@ -28,7 +28,7 @@
 
     <form action="search.php" method="POST">
         (6) 입력 점수보다 청렴도가 높은 지역 검색</a><br>
-        <label>17년도 :</label>
+        <label>17년도 종합청렴도:</label>
         <input type="text" name="inputvalue" placeholder="점수를 입력하시오."><br>
         <input type="submit" value="Search">
     </form>
