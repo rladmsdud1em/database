@@ -24,7 +24,7 @@ order by s17-s16 DESC;";
     <title>청결도확인 시스템</title>
 </head>
 <body>
-    <h2><a href="index.php">청결도확인 시스템</a> | 2016년과 비교하여 높아진 지역</h2>
+    <h2><a href="index.php">청결도확인 시스템</a> | 16년도와 17년도 비교</h2>
     <table border="1">
         <tr>
             <th>city_id</th>
