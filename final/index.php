@@ -33,7 +33,7 @@
         <input type="submit" value="Search">
     </form>
 
-    <a href="compare.php">(7) 전년도와 비교하여 청렴도가 높아진 지역</a><br>
+    <a href="compare.php">(7) 16년도와 17년도 비교</a><br>
 
 
 
