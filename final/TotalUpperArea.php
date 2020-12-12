@@ -85,6 +85,7 @@ th {
     <h2><a href="index.php">지역별 청렴도 측정 결과 시스템</a> | 전체 상위 지역</h2>
     <h4>s = 종합 청렴도 / e = 외부 청렴도 / i = 내부 청렴도<h4>
     <table border="1" style="float:left;">
+        <tr><th colspan="3">17년도</th></tr>
         <tr>
             <th>city_id</th>
             <th>city</th>
@@ -93,7 +94,8 @@ th {
         <?=$fin_info?>
         </table>
     <table border="1" style="float:left;">
-            <tr>
+         <tr><th colspan="3">16년도</th></tr>
+         <tr>
                 <th>city_id</th>
                 <th>city</th>
                 <th>s16</th>
@@ -101,6 +103,7 @@ th {
         <?=$fin2_info?>
     </table>
     <table border="1" style="float:left;">
+        <tr><th colspan="3">15년도</th></tr>
         <tr>
             <th>city_id</th>
             <th>city</th>
@@ -109,6 +112,7 @@ th {
         <?=$fin3_info?>
         </table>
     <table border="1" style="float:left;">
+           <tr><th colspan="3">14년도</th></tr>
             <tr>
                 <th>city_id</th>
                 <th>city</th>
@@ -117,6 +121,7 @@ th {
         <?=$fin4_info?>
     </table>
     <table border="1" style="float:left;">
+        <tr><th colspan="3">13년도</th></tr>
         <tr>
             <th>city_id</th>
             <th>city</th>
