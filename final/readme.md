@@ -70,7 +70,7 @@
     $query1 = "SELECT city_sub, avg(s17) as 'avg17'
               from clean Group by city_sub ORDER BY avg17 DESC";
     $query2 = "SELECT city_sub, avg(s16) as 'avg16'
-             from clean Group by city_sub ORDER BY avg16 DESC";
+              from clean Group by city_sub ORDER BY avg16 DESC";
     $query3 = "SELECT city_sub, avg(s15) as 'avg15'
               from clean Group by city_sub ORDER BY avg15 DESC";
     $query4 = "SELECT city_sub, avg(s14) as 'avg14'
@@ -116,7 +116,7 @@
 ‘공공행정의부패방지 및 척결’ 대상을 수상하였다는 부분에서 
 신뢰성이 있다고 판단하였습니다. 그리고 각 지역에서 어떤 결과를 
 나타내는지 알아보고 이를 분석하여 유의미한 정보를 전달하고자 
-이 데이터베이스를 선정하였습니다.청렴도가 어떻게 측정되는지는 
+이 데이터베이스를 선정하였습니다. 청렴도가 어떻게 측정되는지는 
 아래 링크를 통해 확인부탁드립니다.
 
 이렇게 하나의 데이터베이스 테이블을 가지고 다양한 쿼리를 
@@ -129,7 +129,7 @@
 
 둘째, 검색 지역의 청렴도 조회는 검색창의 본인이 조회하고싶은 
 지역의 도 또는 시군구를 입력합니다. 검색하면 검색어가 포함된 
-데이터들을 city_id순으로 조회된 결과가 나옵니다.
+데이터들이 city_id순으로 조회된 결과가 나옵니다.
 
 셋째, 넷째, 다섯번째는 각각 시군구별 청렴도 우수지역, 
 시군구별 청렴도 하위지역, 우수 자치도별 순위입니다. 
