@@ -96,8 +96,9 @@
 <a href = https://www.data.go.kr/data/15040621/fileData.do> 공공데이터포털_국민권익위원회_시군구_청렴도측정결과 </a>
 
 ## 5. 홈페이지 링크
+<a href = http://clean.dothome.co.kr/index.php>
 <img src="https://user-images.githubusercontent.com/70553171/102019054-761dbc80-3db4-11eb-85d1-58948ec67d8a.png" width="70%"></img>
-<p><a href = http://clean.dothome.co.kr/index.php> 지역별 청렴도 측정 결과 시스템 </a>
+<p> 지역별 청렴도 측정 결과 시스템</a>
 
 ## 6. 영상 링크
 <a href = https://youtu.be/KvKo7MqqfbM> https://youtu.be/KvKo7MqqfbM </a>
